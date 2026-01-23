@@ -1,0 +1,37 @@
+.ficha-container {
+    font-family: 'sans-serif';
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    text-align: center;
+}
+.diamante-box {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
+    transform: rotate(45deg);
+    border: 2px solid #333;
+}
+.quadrado {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-45deg);
+    font-weight: bold;
+    font-size: 24px;
+}
+.saude { top: 75px; left: 0; background: #3498db; color: white; }
+.fogo { top: 0; left: 0; background: #ff4b4b; color: white; }
+.reatividade { top: 0; left: 75px; background: #f1c40f; color: black; }
+.especial { top: 75px; left: 75px; background: #ffffff; color: black; font-size: 14px; }
+.emergencia {
+    background: #fff3f3;
+    border-left: 6px solid #ff4b4b;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: left;
+}
