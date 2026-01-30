@@ -80,7 +80,7 @@ def mostrar_ficha():
             st.error("Projeto não encontrado.")
 
     else:
-        st.info("👋 LabSmartAI: Aguardando leitura de um QR Code de Substância, Vidraria ou Projeto.")
+        st.info("👋 SynapseLab: Aguardando leitura de um QR Code de Substância, Vidraria ou Projeto.")
 
 if __name__ == "__main__":
     mostrar_ficha()
